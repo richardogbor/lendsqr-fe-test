@@ -1,0 +1,55 @@
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #213f7d0f;
+  border-radius: 4px;
+  box-shadow: 3px 5px 20px 0px #0000000a;
+
+  .table {
+    width: 100%;
+
+    th {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 20px;
+
+      .header {
+        display: flex;
+
+        gap: 20px;
+      }
+    }
+
+    td {
+      padding: 20px;
+
+      font-size: 14px;
+      font-weight: 400;
+
+      .status {
+        padding: 5px 10px;
+        border-radius: 100px;
+
+        font-weight: 400;
+      }
+
+      .inactive {
+        border: 1px solid #213f7d0f;
+        background: #545f7d12;
+      }
+
+      .pending {
+        background: #e9b30028;
+        color: #e9b200;
+      }
+      .blackListed {
+        background: #e4033b1d;
+        color: #e4033b;
+      }
+      .active {
+        background: #39cd6320;
+        color: #39cd62;
+      }
+    }
+  }
+}

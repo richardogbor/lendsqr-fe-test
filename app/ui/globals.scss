@@ -1,0 +1,18 @@
+$bgPrimary: #ffffff;
+$colorPrimary: #545f7d;
+$colorSecondary: #213f7d;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    background-color: $bgPrimary;
+    color: $colorPrimary;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

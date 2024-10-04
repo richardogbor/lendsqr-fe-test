@@ -1,0 +1,19 @@
+.container {
+  overflow: auto;
+  padding: 0 20px;
+  position: sticky;
+  background-color: #ffffff;
+
+  box-shadow: 0px 15px 90px 0px #00000008;
+
+  .list {
+    list-style: none;
+    overflow: auto;
+
+    .cat {
+      font-family: Work Sans;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}

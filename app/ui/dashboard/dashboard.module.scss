@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  overflow: auto;
+  .topnav {
+    width: 100%;
+    box-shadow: 3px 0px 20px 0px #0000000a;
+    color: #ffffff;
+    padding: 0 30px;
+  }
+  .wrapper {
+    display: flex;
+
+    .menu {
+      // position: sticky;
+      flex: 1;
+    }
+    .content {
+      flex: 4;
+      padding: 50px;
+    }
+  }
+}
